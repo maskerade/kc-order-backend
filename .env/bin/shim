@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+export NODE_PATH='/Users/stefandefigueiredo/sd-gitrepos/facebook/order-backend/.env/lib/node_modules'
+export NPM_CONFIG_PREFIX='/Users/stefandefigueiredo/sd-gitrepos/facebook/order-backend/.env'
+export npm_config_prefix='/Users/stefandefigueiredo/sd-gitrepos/facebook/order-backend/.env'
+exec '.env/bin/node' "$@"
